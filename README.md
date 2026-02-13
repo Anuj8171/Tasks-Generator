@@ -12,7 +12,7 @@ A simple web app that converts a feature idea into structured user stories and e
 ### Tech Stack
 - Next.js (App Router)  
 - TypeScript  
-- Prisma + SQLite  
+- Prisma + PostgreSQL (Neon) 
 - OpenRouter (LLM)  
 
 
@@ -25,8 +25,9 @@ npm install
 ```
 Create .env file:
 
-DATABASE_URL="file:./dev.db"
+DATABASE_URL="postgresql://username:password@host:port/dbname"
 OPENROUTER_API_KEY="your_api_key_here"
+
 Run database migration:
 
 npx prisma migrate dev
@@ -37,7 +38,11 @@ Open:
 
 http://localhost:3000
 
+Deployment
 
+The app is deployed on Vercel:
+
+https://tasks-generator-sandy.vercel.app
 
 
 ## Status
