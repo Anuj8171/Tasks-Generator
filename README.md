@@ -59,8 +59,8 @@ Basic validation
 
 No authentication  
 No drag-and-drop ordering  
-Basic UI styling  
-Basic backend  
+Advance UI styling  
+Advance backend  
 
 
 ## Image
