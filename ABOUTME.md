@@ -4,4 +4,4 @@
 Anuj Singh Rana
 
 ## Resume
-[Download my resume](./public/resume.pdf)
+[Download my resume](public/resume.pdf)

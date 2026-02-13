@@ -22,6 +22,7 @@ A simple web app that converts a feature idea into structured user stories and e
 git clone <repo-url>
 cd <repo-name>
 npm install
+```
 Create .env file:
 
 DATABASE_URL="file:./dev.db"
@@ -59,6 +60,6 @@ Basic backend
 
 ## Image
 
-![Tasks Generator](./public/S1.png)
-![Tasks Generator](./public/S2.png)
-![Tasks Generator](./public/S3.png)
+![Tasks Generator Main](public/S1.png)
+![Tasks Generator Form](public/S2.png)
+![Tasks Generator Results](public/S3.png)
