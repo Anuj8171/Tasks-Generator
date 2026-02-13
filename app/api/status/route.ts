@@ -1,4 +1,4 @@
-// pages/api/status/route.ts
+// api/status/route.ts
 import { NextResponse } from "next/server";
 import { prisma } from "../../lib/prisma";
 import { getLLM } from "../../lib/llm";
